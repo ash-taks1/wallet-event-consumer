@@ -1,0 +1,55 @@
+{
+  "createdAt": "2026-10-05T19:48:24.381Z",
+  "transactions": [
+    {
+      "transactionId": "01a10d9c-3867-7181-b32b-4bd079d4085e",
+      "type": "DEPOSIT",
+      "traceId": "7287f7ac5fa3480d95c0645026720d18"
+    },
+    {
+      "traceId": "d7d15801515141b8a45252ffdfe7fb5b",
+      "transactionId": "01a10d9c-3871-723c-bfa2-7db61b13401b",
+      "type": "DEPOSIT"
+    },
+    {
+      "type": "WITHDRAWAL",
+      "traceId": "1a5b378307b14f499f79daca27863207",
+      "transactionId": "01a10d9c-3879-7064-83d2-6a7e3a468702"
+    },
+    {
+      "traceId": "ac226712543640c181fe8fcff81ec1e8",
+      "transactionId": "01a10d9c-3882-717e-bc87-31b694c7ba4d",
+      "type": "TRANSFER"
+    },
+    {
+      "type": "DEPOSIT",
+      "traceId": "81d288794ee24a87bfdd6f5f6ccc7687",
+      "transactionId": "01a10d9c-3889-7e1c-a047-4f1615838e6f"
+    },
+    {
+      "traceId": "0b454bf9f5ff41009be665dd5c0ffe53",
+      "transactionId": "01a10d9c-3893-7028-a137-a91a51f4f4bb",
+      "type": "WITHDRAWAL"
+    },
+    {
+      "traceId": "147d5ce3c0d24e038f01eb98791bf5d3",
+      "transactionId": "01a10d9c-389b-7eb8-8091-2f7baea5fc4a",
+      "type": "TRANSFER"
+    },
+    {
+      "traceId": "df67c53dce5040949336d95b2c262fcd",
+      "transactionId": "01a10d9c-38a3-7f3e-a624-674693e227a6",
+      "type": "DEPOSIT"
+    },
+    {
+      "traceId": "78b6453f0f3a4c26914514543cef4887",
+      "transactionId": "01a10d9c-38ab-73f9-9ddb-95d32e4f4edc",
+      "type": "WITHDRAWAL"
+    },
+    {
+      "type": "TRANSFER",
+      "traceId": "9f04f19048f24e05a3a965562726450a",
+      "transactionId": "01a10d9c-38b7-746e-9a5c-1bb1c6d56fe3"
+    }
+  ]
+}
