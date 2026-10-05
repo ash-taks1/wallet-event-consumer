@@ -1,3 +1,6 @@
 spring:
   application:
     name: wallet-event-consumer
+
+server:
+  port: 8091
