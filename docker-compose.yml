@@ -1,0 +1,25 @@
+name: digital-wallet-consumer
+
+services:
+  wallet-event-consumer:
+    build: .
+    image: wallet-event-consumer:local
+    container_name: wallet-event-consumer
+    environment:
+      DB_HOST: postgres
+      DB_PORT: 5432
+      RABBITMQ_HOST: rabbitmq
+    ports:
+      - "8091:8091"
+    healthcheck:
+      # -Y off: never route the health probe through an HTTP proxy injected by the Docker client.
+      test: ["CMD-SHELL", "wget -Y off -qO- http://localhost:8091/actuator/health/readiness | grep -q UP"]
+      interval: 5s
+      timeout: 3s
+      retries: 30
+      start_period: 10s
+
+networks:
+  default:
+    name: digital-wallet
+    external: true
